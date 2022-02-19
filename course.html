@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/vitlogo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="form.html">FORM</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Courses We Offer</h1>
+    </section>
+    <section class="about">
+        <div class="row">
+          <div class="about-col">
+            <h1>Programmes Offered 2022-2023<br><br></h1>
+            <p class="course">
+                VIT Group of Institutions offer 66 Undergraduate, 58 Postgraduate, 15 Integrated Programmes, 2 Research programmes and 2 M.Tech Industrial Programmes. In addition to full-time Ph.D Degrees in Engineering and Management Disciplines, Ph.D. in Science and Languages and Integrated Ph.D. programmes in engineering disciplines. Research Centers, integral of respective schools encourage inter-departmental collaborative participation of students in exciting research projects. A student admitted should register in one of the schools depending on the degree/ programme selected to pursue.
+            </p>
+          </div>
+          <div class="about-col">
+            <img src="/images/coursesoffer.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="programme">
+        <p><h2>UG Programmes<br><br></h2>
+          <ul>
+          <li>Biomedical Engineering</li><br>
+          <li>Biotechnology</li><br>
+          <li>Civil Engineering</li><br>
+          <li>Mechanical Engineering</li><br>
+          <li>Mechanical Engineering (specialization in Energy Engineering)</li><br>
+          <li>Mechanical Engineering (specialization in Chemical Process Engineering)</li><br>
+          <li>Mechanical with specialization in Automotive Engineering (jointly with ARAI, Pune)</li><br>
+          <li>Production & Industrial Engineering</li><br>
+          <li>Computer Science and Engineering</li><br>
+          <li>Computer Science and Engineering (Specialization in Bioinformatics)</li><br>
+          <li> Electrical and Electronics Engineering</li><br>
+          <li>Electronics and Instrumentation Engineering</li><br>
+          <li>Information Technology</li><br>
+          <li>Electronics and Communication Engineering</li><br><br><br>
+         </ul></p>
+        <a href="https://viteee.vit.ac.in/" class="hero-btn redbtn">ENROLL NOW</a>
+      </div>
+      </section>
+  
+    <!-- ----footer---- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+          Check us out on our social media pages!<br><br>
+        </p>
+        <div class="icons">
+          <a href="https://www.facebook.com/vituniversity/" target="_blank"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a
+            href="https://twitter.com/VIT_univ?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            target="_blank"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/vellore_vit/" target="_blank"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/school/vellore-institute-of-technology/"
+            target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a href="https://www.youtube.com/c/VITUniversityVellore" target="_blank"
+            ><i class="fa fa-youtube"></i
+          ></a>
+        </div>
+        <p><br><br>Made with <i class="fa fa-heart-o"></i> by Alisha Bandyopadhyay</p>
+      </section>
+  
+      <!-- ----------JS for Toggle Menu---------- -->
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+          navLinks.style.right = "0";
+        }
+        function hideMenu() {
+          navLinks.style.right = "-200px";
+        }
+      </script>
+    </body>
+  </html>
